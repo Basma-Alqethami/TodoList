@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4FEA68E027178E67006DCAFD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEA68DF27178E67006DCAFD /* TableViewCell.swift */; };
+		4FEA68E227179467006DCAFD /* AddItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEA68E127179467006DCAFD /* AddItemsViewController.swift */; };
 		4FF9D97227178063001BA938 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF9D97127178063001BA938 /* AppDelegate.swift */; };
 		4FF9D97427178063001BA938 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF9D97327178063001BA938 /* SceneDelegate.swift */; };
-		4FF9D97627178063001BA938 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF9D97527178063001BA938 /* ViewController.swift */; };
+		4FF9D97627178063001BA938 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF9D97527178063001BA938 /* TableViewController.swift */; };
 		4FF9D97927178063001BA938 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FF9D97727178063001BA938 /* Main.storyboard */; };
 		4FF9D97C27178063001BA938 /* TodoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4FF9D97A27178063001BA938 /* TodoList.xcdatamodeld */; };
 		4FF9D97E27178065001BA938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FF9D97D27178065001BA938 /* Assets.xcassets */; };
@@ -17,10 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4FEA68DF27178E67006DCAFD /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		4FEA68E127179467006DCAFD /* AddItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemsViewController.swift; sourceTree = "<group>"; };
 		4FF9D96E27178063001BA938 /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FF9D97127178063001BA938 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FF9D97327178063001BA938 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4FF9D97527178063001BA938 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FF9D97527178063001BA938 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		4FF9D97827178063001BA938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4FF9D97B27178063001BA938 /* TodoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TodoList.xcdatamodel; sourceTree = "<group>"; };
 		4FF9D97D27178065001BA938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +64,9 @@
 			children = (
 				4FF9D97127178063001BA938 /* AppDelegate.swift */,
 				4FF9D97327178063001BA938 /* SceneDelegate.swift */,
-				4FF9D97527178063001BA938 /* ViewController.swift */,
+				4FEA68E127179467006DCAFD /* AddItemsViewController.swift */,
+				4FF9D97527178063001BA938 /* TableViewController.swift */,
+				4FEA68DF27178E67006DCAFD /* TableViewCell.swift */,
 				4FF9D97727178063001BA938 /* Main.storyboard */,
 				4FF9D97D27178065001BA938 /* Assets.xcassets */,
 				4FF9D97F27178065001BA938 /* LaunchScreen.storyboard */,
@@ -141,7 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FF9D97627178063001BA938 /* ViewController.swift in Sources */,
+				4FEA68E027178E67006DCAFD /* TableViewCell.swift in Sources */,
+				4FEA68E227179467006DCAFD /* AddItemsViewController.swift in Sources */,
+				4FF9D97627178063001BA938 /* TableViewController.swift in Sources */,
 				4FF9D97227178063001BA938 /* AppDelegate.swift in Sources */,
 				4FF9D97427178063001BA938 /* SceneDelegate.swift in Sources */,
 				4FF9D97C27178063001BA938 /* TodoList.xcdatamodeld in Sources */,
